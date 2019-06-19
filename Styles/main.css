@@ -1,0 +1,56 @@
+/*
+Creator: Preston Fuller
+Date Created: 6/5/2019
+Date Last Modified:
+*/
+
+
+/* body components*/
+header, footer {
+  background-color: indianred;
+  color: khaki;
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 100px;
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+  border: 3px solid black;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+body {
+background-color: khaki;
+font-family: 'Open Sans Condensed', sans-serif;
+color: black;
+max-width: 900px;
+margin: 0 auto;
+}
+
+/* link styling*/
+nav {
+  border: 3px solid black;
+  margin-top: 4px;
+  background-color: indianred;
+}
+nav a {
+  background-color: khaki;
+  color: indianred;
+  padding: 8px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  width: 100px;
+  float: left;
+}
+nav a:visited {
+  color: black;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+/* form styling */
